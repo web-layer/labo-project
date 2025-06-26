@@ -5,6 +5,16 @@
     list-style: none;
 }
 
+
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .menu-bars {
 
     font-size: 30px;
@@ -31,6 +41,8 @@
     }
     
   }
+  
+
   
 
 
@@ -62,7 +74,7 @@ font-family: "Sora", sans-serif;
 
 header  .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     height: 72px;
@@ -95,6 +107,7 @@ a i {
     line-height: 2.2;
     width: 200px;
      visibility: hidden;
+     z-index: 999;
    
     
 }
@@ -160,7 +173,7 @@ ul .hover:hover ul .dropdown {
 
 .left {
    display: flex;
-   flex-direction: column-reverse;
+   flex-direction: row-reverse;
    align-content:center;
       justify-items: center;
    
@@ -169,18 +182,21 @@ ul .hover:hover ul .dropdown {
 
 .section-hom {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
  
 }
 .section-hom .img-section img {
-  width: 100%;
+  position: relative;
+  max-width: 72.917vw;
+  margin-left: auto;
 }
 
 .section-hom .img-section{
   background-position: center;
   background-size: cover;
-  margin: 30px;
+  margin: 20px;
+
 
 }
 
@@ -194,6 +210,13 @@ ul .hover:hover ul .dropdown {
     align-items: center;
     border-radius: 50%;
    
+}
+
+.right-section {
+  display: flex
+  ;
+      align-items: center;
+      justify-content: space-between;
 }
 
 .right .menu-left span i {
