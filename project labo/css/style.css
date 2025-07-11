@@ -9,6 +9,19 @@ body {
   height: 4000px;
 
 
+
+
+}
+
+.patren {
+  position: absolute;
+  top: 1%;
+  z-index: -1;
+}
+
+
+.section-hom .right-section {
+ 
 }
 
 ::selection {
@@ -427,7 +440,19 @@ font-size: 19px;
       border: 1px solid #ddd;
       padding: 20px;
       transition: 0.6s ease-in-out;
+      border-radius: 12px;
+      transform: translateY(0px);
 }
+
+
+
+.Services .Servicesitem .box-Services:hover {
+  background-color: #7A6CB1;
+  transition: 0.6s ease-in-out;
+  color: #f1f1f1;
+  transform: translateY(-5px);
+}
+
 
 
 .Services .Servicesitem .box-Services .content  h2{
@@ -442,13 +467,82 @@ font-size: 19px;
   font-size: 15px;
   color: #585858;
   line-height: 26px;
+  transition: 0.5s;
+
+}
+
+.Services .Servicesitem .box-Services:hover .content span {
+  font-size: 15px;
+  color: #eee;
+  line-height: 26px;
+  transition: 0.5s;
 
 }
 
 
-.Services .Servicesitem .box-Services:hover {
-  background-color: #7A6CB1;
-  transition: 0.6s ease-in-out;
-  color: #f1f1f1;
+
+.Services .Servicesitem .box-Services:hover  .inline-svg  {
+  transition: fill 0.3s ease;
+  fill: white;
 }
 
+
+
+.Services .Servicesitem .box-Services   {
+  transition: fill 0.3s ease;
+  transition: 0.5s ease-in-out;
+}
+
+
+
+.Services .Servicesitem .box-Services .img {
+  transition: transform 0.7s ease-in-out, opacity 0.4s;
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  opacity: 1;
+  display: inline-block;
+  transform: rotateY(0deg);
+}
+
+.Services .Servicesitem .box-Services:hover .img{
+
+  opacity: 1;
+  transform: rotateY(180deg);
+
+
+}
+
+
+.about {
+  margin-top: 120px;
+
+
+}
+
+.about  .flexabout {
+  display: flex;
+}
+
+.about .contant h1{
+  font-size: 29px;
+  margin-bottom: 50px;
+  width: 72%;
+
+
+}
+
+.about .contant span {
+
+font-family: "Playfair Display SC", serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.contant-about img {
+    width: 50%;
+}
+
+
+.Our-Portfolio {
+  margin-top: 120px;
+}
