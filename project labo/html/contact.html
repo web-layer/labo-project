@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+    <title>اتصل بنا</title>
+    <style>
+/*         body {
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        } */
+
+header {
+    background-color: #ffffff;
+    height: 100px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px #7a6cb1;
+}
+
+
+        .contact-container {
+            max-width: 600px;
+            width: 95%;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            animation: fadeInUp 0.7s ease-out;
+
+
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .contact-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-header img {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .contact-header h1 {
+              color: #7a6cb1;
+            font-size: 32px;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid #e1e1e1;
+            border-radius: 8px;
+            background: #fafafa;
+            font-size: 16px;
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        form input:focus,
+        form textarea:focus {
+            border-color: #7a6cb1;
+            box-shadow: 0 0 8px rgba(0, 114, 255, 0.3);
+            outline: none;
+        }
+        form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #d873ba, #7a6cb1);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+        transition: all 0.3s ease;
+        }
+        form button:hover {
+            background: linear-gradient(45deg, #7a6cb1,#d873ba );
+              transition: all 0.3s ease;
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+      
+
+
+        <div class="header-scroll">
+        <div class="container nav-header">
+     
+    <a href="index.html" class="logo-link">
+                <div class="logo">
+                <img src="/project labo/img/Simple Suits Store Black Logo  (1).png" width="100px" height="100px" alt="labo">
+            </div>
+
+    </a>
+            <nav>
+
+                <ul class="main-menu">
+                    <li class="menu-item"><a href="/index.html">Home</a></li>
+                    <li class="menu-item"><a href="/about.html">About</a></li>
+                    <li class="menu-item"><a href="/gallery.html">Services</a></li>
+                    <li class="hover menu-item"><a href="/contact.html">Contact<i
+                                class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <div class="dropdown">
+                                <li><a href="contact.html">Contact 1</a>
+                                <li><a href="/contact.html">Contact 2</a>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href="/contact.html">blog</a>
+                </ul>
+
+            </nav>
+            <span class="menu-bars"><i class="fa-solid fa-bars"></i></span>
+
+        </div>
+    </div>
+
+
+
+
+    </header>
+
+
+<div class="contact">
+     <div class="contact-container">
+        <div class="contact-header">
+       <img src="/img/Simple Suits Store Black Logo  (1).png" alt="Logo">
+            <h1>اتصل بنا</h1>
+        </div>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="الاسم" required>
+            <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+            <textarea name="message" rows="5" placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </div> 
+</div>
+
+</body>
+</html>
