@@ -1,10 +1,12 @@
 
 
-let showmenu = document.getElementById("menu")
-let overlayer = document.querySelector('.overlayer')
+let showmenu = document.querySelector(".aside_wrapper")
+let btn = document.querySelector('.perent')
 
-showmenu.addEventListener('click', function () {
-    showmenu.classList.toggle("active")
+btn.addEventListener('click', function () {
+    showmenu.classList.toggle('opne')
 })
 
 
+
+console.log(showmenu);

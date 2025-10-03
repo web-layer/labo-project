@@ -321,19 +321,29 @@ ul .hover:hover ul .dropdown {
 }
 
 .aside_wrapper  {
-  visibility: hidden;
+
+
+}
+
+
+.aside_wrapper.opne  {
+
+    right: 0;
+     max-width: 400px;
+    transition:  0.5s ease-in-out;
 }
 
 .aside_wrapper {
   background-color: #ffffff;
   position: fixed;
-max-width: 400px;
-  right: 0;
+    max-width: 0;
+    right: -100%;
   z-index: 999;
   min-height: 100%;
   padding: 16px;
   text-align: center;
 
+    transition:  0.5s ease-in-out;
 
 
 }
@@ -697,3 +707,14 @@ h1 {
 }
 
 
+
+.flex {
+  display: flex;
+  gap: 20px;
+justify-content:space-between;
+}
+
+.header-scroll {
+    height: 100px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
