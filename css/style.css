@@ -738,6 +738,7 @@ h1 {
 @media (max-width: 768px) {
 
 
+
      .flexabout .contant-about img{
     width: 100%;
   }
@@ -750,9 +751,30 @@ h1 {
     font-size: 29px;
     margin-bottom: 50px;
     width: 72%;
+    
 }
 
 
+.about .contant  h1 {
+  font-size: 18px;
+  line-height: 28px; 
+  margin-bottom: 20px;
+  width: 100%;
+ 
+}
+
+.contant-about .info span  {
+  font-size: 18px;
+  line-height: 28px;
+
+}
+
+
+.title h1 {
+  font-size: 24px;
+  line-height: 32px;
+ width: 100%;
+}
 
 }
 
