@@ -84,6 +84,15 @@ header {
   }
   
 
+
+  .temporary {
+    padding: 10px;
+    background-color: #cecccc;
+    margin: 120px auto;
+ display: inline-block;
+ text-align: center;
+ width: 100%;
+  }
   
 
 
